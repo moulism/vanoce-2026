@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Přání pro Ježíška 2026 – Matyáš</title>
+<meta name="description" content="Vánoční seznam přání – Matyáš 2026">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Fira+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--green:#17382A;--green2:#24523D;--gold:#C9A24B;--goldl:#EAD9AE;--red:#8E1F2F;--cream:#FBF7EE;--ink:#22201C;--grey:#7A746A;--line:#E7DFCF}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Fira Sans",system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.5}
+.serif,h1,h2,h3,.price{font-family:"Crimson Text",Georgia,serif}
+header{background:var(--green);color:#fff;text-align:center;padding:56px 20px 40px;position:relative;overflow:hidden;border-bottom:4px solid var(--gold)}
+header::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.14) 1.4px,transparent 1.6px),radial-gradient(circle,rgba(255,255,255,.08) 1px,transparent 1.2px);background-size:46px 46px,23px 23px;background-position:0 0,11px 17px;pointer-events:none}
+header>*{position:relative}
+.tree{font-size:64px;line-height:1}
+.kicker{color:var(--gold);letter-spacing:.35em;font-size:12px;font-weight:600;margin:14px 0 4px}
+h1{font-size:clamp(40px,8vw,64px);line-height:1.05;font-weight:700}
+.from{font-style:italic;color:var(--goldl);font-size:21px;font-family:"Crimson Text",serif}
+.letter{background:var(--cream);color:var(--ink);max-width:640px;margin:30px auto 0;border-radius:14px;padding:26px 30px;text-align:left;font-family:"Crimson Text",serif;font-size:18px;line-height:1.55;box-shadow:0 0 0 6px var(--cream),0 0 0 7px var(--gold) inset}
+.letter b{font-weight:700} .letter p+p{margin-top:10px}
+nav{position:sticky;top:0;z-index:5;background:rgba(251,247,238,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;gap:8px;overflow-x:auto;padding:10px 16px;scrollbar-width:none}
+nav a{flex:none;display:flex;align-items:center;gap:6px;text-decoration:none;color:var(--green);font-weight:500;font-size:14px;padding:7px 13px;border:1px solid var(--line);border-radius:99px;background:#fff}
+nav a small{color:var(--grey);font-size:12px}
+nav a:hover{border-color:var(--gold)}
+main{max-width:1180px;margin:0 auto;padding:10px 18px 60px}
+section{scroll-margin-top:64px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:32px;color:var(--green);margin:38px 0 16px;padding-bottom:8px;border-bottom:1.5px solid var(--gold)}
+h2 small{font-family:"Fira Sans";font-size:13px;color:var(--grey);font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 3px 0 #EDE5D3;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,56,42,.12)}
+.media{position:relative;aspect-ratio:4/3;background:#fff;display:grid;place-items:center;border-bottom:1px solid var(--line)}
+.media img{width:100%;height:100%;object-fit:contain;padding:14px}
+.emo{font-size:84px}
+.no{position:absolute;top:10px;left:10px;width:28px;height:28px;border-radius:50%;background:var(--red);color:#fff;font-style:normal;font-weight:600;font-size:13px;display:grid;place-items:center}
+.info{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.shop{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey)}
+h3{font-size:21px;line-height:1.15;margin:3px 0 10px}
+.tags{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tags li{font-size:12px;font-weight:500;color:var(--green);background:#F3EEE3;border:1px solid #E2D7C0;border-radius:99px;padding:2px 10px}
+.tags li:first-child{background:var(--green);color:#fff;border-color:var(--green)}
+.desc{font-size:14px;color:#3a3630}
+.note{font-size:13px;margin-top:8px;color:var(--red);background:#F7E3E6;border-radius:8px;padding:6px 10px}
+.foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.price{color:var(--red);font-size:21px;font-weight:700}
+.btn{background:var(--green);color:#fff;text-decoration:none;font-weight:600;font-size:14px;padding:9px 16px;border-radius:99px;white-space:nowrap}
+.btn:hover{background:var(--green2)} .btn.ghost{background:#F3EEE3;color:var(--green)}
+footer{text-align:center;color:var(--grey);font-size:13px;padding:30px 20px 50px}
+</style>
+</head>
+<body>
+<header>
+  <div class="tree">🎄</div>
+  <p class="kicker">VÁNOCE 2026</p>
+  <h1>Přání pro Ježíška</h1>
+  <p class="from">od Matyáše</p>
+  <div class="letter">
+    <p><b>Milý Ježíšku,</b></p>
+    <p>letos jsem se snažil být hodný, a tak posílám svůj seznam přání. U každé věci je <b>fotka, krátký popis, cena a počet kusů</b>. Když záleží na <b>velikosti, barvě nebo provedení</b>, je to napsané přímo u položky.</p>
+    <p>Do obchodu se dostaneš přes zelené tlačítko <b>Otevřít v obchodě</b>.</p>
+    <p><i>Děkuju a veselé Vánoce!</i> <b>– Matyáš</b></p>
+  </div>
+</header>
+<nav><a href="#s0"><span>☕</span>Káva<small>2</small></a><a href="#s1"><span>💻</span>Technika<small>2</small></a><a href="#s2"><span>💿</span>Vinylový koutek<small>3</small></a><a href="#s3"><span>🏠</span>Do bytu<small>11</small></a><a href="#s4"><span>👕</span>Oblečení a vůně<small>5</small></a><a href="#s5"><span>🏎️</span>Zážitky a sport<small>3</small></a></nav>
+<main>
+<section id="s0">
+  <h2><span>☕</span>Káva<small>2 přání</small></h2>
+  <div class="grid">
+<article class="card">
+  <div class="media"><img src="https://dokonalakava-cz.s28.cdn-upgates.com/_cache/4/4/448b2b7c7664b990ee427006b99e77bc-x3-2.png" alt="Lelit Elizabeth3 PL92T3 – černý + D! Puck Screen" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'☕'}))"><i class="no">1</i></div>
+  <div class="info">
+    <p class="shop">dokonalakava.cz</p>
+    <h3>Lelit Elizabeth3 PL92T3 – černý + D! Puck Screen</h3>
+    <ul class="tags"><li>1 ks</li><li>černá</li><li>sada s puck screenem 1,7 mm / 150 µm</li></ul>
+    <p class="desc">Pákový kávovar se dvěma bojlery (na espresso a na páru), PID regulací teploty a pádlem na ruční řízení tlaku. Prosím přesně tuhle sadu i se sítkem (puck screen).</p>
+    
+    <div class="foot"><span class="price">49 389 Kč</span><a class="btn" href="https://www.dokonalakava.cz/p/lelit-elizabeth3-pl92t3-black-d-puck-screen-1-7mm-150um" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://dokonalakava-cz.s28.cdn-upgates.com/_cache/e/0/e093600623a1c0def65537851e12d6a3-7.png" alt="Lelit Steve PM20 – Black" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'⚙️'}))"><i class="no">2</i></div>
+  <div class="info">
+    <p class="shop">dokonalakava.cz</p>
+    <h3>Lelit Steve PM20 – Black</h3>
+    <ul class="tags"><li>1 ks</li><li>černá</li></ul>
+    <p class="desc">Mlýnek na kávu s plochými kameny 64 mm a násypkou na 250 g zrn. Ke kávovaru, aby byla káva čerstvě namletá.</p>
+    
+    <div class="foot"><span class="price">12 799 Kč</span><a class="btn" href="https://www.dokonalakava.cz/p/lelit-steve-pm20-black" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article></div>
+</section>
+<section id="s1">
+  <h2><span>💻</span>Technika<small>2 přání</small></h2>
+  <div class="grid">
+<article class="card">
+  <div class="media"><img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-cto-hero-202410_SW_COLOR?wid=600&amp;hei=600&amp;fmt=jpeg&amp;qlt=90&amp;.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3WmJldjZKNUozZEJDc2p3M25qTEh4MnNJOHkrRmQyZWo3V0dhak90K3loeFh4VGFGcm5PYXNVSHJ2bHpycC9hbFBjUUdsRGhNWW1mS1lQYUZkN2wrc0VSYldYRkR4bXh3ek4xMTVvWmRQWWg" alt="MacBook Pro 14&quot; – M5 Pro, vesmírně černý" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'💻'}))"><i class="no">3</i></div>
+  <div class="info">
+    <p class="shop">apple.com/cz</p>
+    <h3>MacBook Pro 14&quot; – M5 Pro, vesmírně černý</h3>
+    <ul class="tags"><li>1 ks</li><li>48 GB RAM</li><li>2 TB</li><li>nanotextura</li><li>CZ klávesnice</li></ul>
+    <p class="desc">Konfigurace: čip M5 Pro (15jádrové CPU, 16jádrové GPU), 48 GB paměti, 2TB úložiště, displej se sklem s nanotexturou, český podsvícený Magic Keyboard s Touch ID, 96W adaptér, licence Final Cut Pro a Logic Pro. Odkaz otevírá přesně tuhle sestavu.</p>
+    
+    <div class="foot"><span class="price">137 760 Kč</span><a class="btn" href="https://www.apple.com/cz/shop/buy-mac/macbook-pro-proled-xdr/14palcový-space-black-displej-s-nanotexturou-apple-čip-m5-pro-15jádrové-cpu-16jádrové-gpu-48-gb-paměti-2tb-úložiště" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://lookaside.fbsbx.com/elementpath/media/?media_id=1582905536821779&amp;version=1787818995&amp;transcode_extension=webp" alt="Ray-Ban Meta (Gen 3) Wayfarer" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🕶️'}))"><i class="no">4</i></div>
+  <div class="info">
+    <p class="shop">meta.com</p>
+    <h3>Ray-Ban Meta (Gen 3) Wayfarer</h3>
+    <ul class="tags"><li>Rám: Transparent Black</li><li>Skla: Clear (čirá)</li><li>Velikost: Standard</li><li>Můstek: High bridge fit</li></ul>
+    <p class="desc">Chytré brýle s kamerou 12 MP, videem 3K a Meta AI. Pozor: odkaz se otevře v jiné barvě – na stránce je potřeba vybrat rám Transparent Black, čirá skla, velikost Standard a High bridge fit.</p>
+    <p class="note">⚠️ Na fotce je jiná barva – vybrat Transparent Black + čirá skla.</p>
+    <div class="foot"><span class="price">cena na webu</span><a class="btn" href="https://www.meta.com/ai-glasses/ray-ban-meta-gen-3-wayfarer-shiny-black-green-polarized/" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article></div>
+</section>
+<section id="s2">
+  <h2><span>💿</span>Vinylový koutek<small>3 přání</small></h2>
+  <div class="grid">
+<article class="card">
+  <div class="media"><img src="https://static.muzikercdn.com/uploads/products/33691/3369125/main_99d2b90d.jpg" alt="Renote magnetický rámeček na LP desky – černý" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🖼️'}))"><i class="no">5</i></div>
+  <div class="info">
+    <p class="shop">muziker.cz</p>
+    <h3>Renote magnetický rámeček na LP desky – černý</h3>
+    <ul class="tags"><li>5 ks</li><li>černá</li></ul>
+    <p class="desc">Rámeček na zeď na obal LP desky, otevírá se magneticky, takže se desky dají měnit během pár sekund. Chci 5 kusů na celou stěnu.</p>
+    
+    <div class="foot"><span class="price">509 Kč / ks</span><a class="btn" href="https://www.muziker.cz/renote-magnetic-vinyl-record-albums-frame" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://static.muzikercdn.com/uploads/products/11022/1102296/main_c2e3a118.jpg" alt="Legend Vinyl LV5 – stolní stojan na LP" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'💿'}))"><i class="no">6</i></div>
+  <div class="info">
+    <p class="shop">muziker.cz</p>
+    <h3>Legend Vinyl LV5 – stolní stojan na LP</h3>
+    <ul class="tags"><li>1 ks</li></ul>
+    <p class="desc">Stojan z akrylu a dřeva až na 50 desek, desky z něj nevypadávají.</p>
+    
+    <div class="foot"><span class="price">924 Kč</span><a class="btn" href="https://www.muziker.cz/legend-vinyl-lp-shelf-stand" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://api.siko.cz/medias/im-515-AKFE1076OLW.jpg?context=bWFzdGVyfGF6dXJlaW1hZ2VzfDUzNzYxfGltYWdlL2pwZWd8YURObUwyaGtNaTh6TURJMU5ESXpNRE13TmpnME5pOXBiUzAxTVRWZlFVdEdSVEV3TnpaUFRGY3VhbkJufDJlMGU4NDdhODVkNzBiZjYzOTFmNTNkM2Q5M2M0YmM2NDYyNTg1MWFjZmQ0YTNhMDBiNzM4NzA5YTVjNzRhNGM" alt="Stolek na gramofon a LP desky Autronic 81×30 cm" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🪵'}))"><i class="no">7</i></div>
+  <div class="info">
+    <p class="shop">siko.cz</p>
+    <h3>Stolek na gramofon a LP desky Autronic 81×30 cm</h3>
+    <ul class="tags"><li>1 ks</li><li>hnědá / MDF</li></ul>
+    <p class="desc">Stolek pod gramofon s kovovou podnoží, třemi policemi a místem na desky. Rozměry 81 × 30 × 69 cm.</p>
+    
+    <div class="foot"><span class="price">1 590 Kč</span><a class="btn" href="https://www.siko.cz/stolek-na-gramofon-a-lp-desky-autronic-81x30-cm-mdf-hneda-akf-e1076-olw/p/AKFE1076OLW" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article></div>
+</section>
+<section id="s3">
+  <h2><span>🏠</span>Do bytu<small>11 přání</small></h2>
+  <div class="grid">
+<article class="card">
+  <div class="media"><img src="https://d.media.kavehome.com/image/upload/v1750941115/products/T00256WM10_1V01.jpg" alt="Kave Home Tarsel – konferenční stolek 140×60 cm" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🛋️'}))"><i class="no">8</i></div>
+  <div class="info">
+    <p class="shop">kavehome.com</p>
+    <h3>Kave Home Tarsel – konferenční stolek 140×60 cm</h3>
+    <ul class="tags"><li>1 ks</li><li>sklo + ořech + broušená ocel</li></ul>
+    <p class="desc">Konferenční stolek s deskou z tvrzeného skla, ořechovou poličkou a nerezovou konstrukcí.</p>
+    
+    <div class="foot"><span class="price">cena na webu</span><a class="btn" href="https://kavehome.com/en/en/p/tarsel-coffee-table-in-tempered-glass-with-walnut-veneer-tray-with-brushed-stainless-steel-structure-140-x-60-cm-fsc-100" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://d.media.kavehome.com/image/upload/v1750941114/products/C00154WM10_1V01.jpg" alt="Kave Home Tarsel – odkládací stolek 42×47 cm" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🪑'}))"><i class="no">9</i></div>
+  <div class="info">
+    <p class="shop">kavehome.com</p>
+    <h3>Kave Home Tarsel – odkládací stolek 42×47 cm</h3>
+    <ul class="tags"><li>1 ks</li><li>ořech + broušená ocel</li></ul>
+    <p class="desc">Malý stolek ze stejné řady jako konferenční stolek, aby to ladilo.</p>
+    
+    <div class="foot"><span class="price">cena na webu</span><a class="btn" href="https://kavehome.com/en/en/p/tarsel-side-table-in-walnut-veneer-with-brushed-stainless-steel-structure-42-x-47-cm-fsc-100" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://d.media.kavehome.com/image/upload/v1762933994/products/L00120RR13_1V01.jpg" alt="Kave Home Nuvira – stojací lampa" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'💡'}))"><i class="no">10</i></div>
+  <div class="info">
+    <p class="shop">kavehome.com</p>
+    <h3>Kave Home Nuvira – stojací lampa</h3>
+    <ul class="tags"><li>1 ks</li><li>světle šedá + oranžové stínidlo</li></ul>
+    <p class="desc">Stojací lampa z broušeného kovu s oranžovým stínidlem.</p>
+    
+    <div class="foot"><span class="price">cena na webu</span><a class="btn" href="https://kavehome.com/en/en/p/nuvira-floor-lamp-in-light-grey-brushed-metal-and-orange-lampshade" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://www.ikea.com/cz/cs/images/products/raggisar-podnos-tmave-seda__0710846_pe727798_s5.jpg" alt="IKEA RÄGGISAR – podnos, tmavě šedý" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🗃️'}))"><i class="no">11</i></div>
+  <div class="info">
+    <p class="shop">ikea.com</p>
+    <h3>IKEA RÄGGISAR – podnos, tmavě šedý</h3>
+    <ul class="tags"><li>2 ks</li><li>40×30 cm</li></ul>
+    <p class="desc">Plstěné podnosy s přihrádkami na hodinky, prstýnky a drobnosti. Dají se stohovat.</p>
+    
+    <div class="foot"><span class="price">329 Kč / ks</span><a class="btn" href="https://www.ikea.com/cz/cs/p/raggisar-podnos-tmave-seda-10348019/" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S1124b44061d149d7bbec3f8cf62d4ed4T.jpg" alt="Kulatý koberec „8 Ball“ – černobílý" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🎱'}))"><i class="no">12</i></div>
+  <div class="info">
+    <p class="shop">aliexpress.com</p>
+    <h3>Kulatý koberec „8 Ball“ – černobílý</h3>
+    <ul class="tags"><li>1 ks</li></ul>
+    <p class="desc">Měkký protiskluzový koberec ve tvaru kulečníkové osmičky.</p>
+    
+    <div class="foot"><span class="price">cca 252 Kč</span><a class="btn" href="https://www.aliexpress.com/item/1005012815244461.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd7a9d09de522493faba688afd1ca0eedk.jpg" alt="Věšák na klíče ve tvaru garáže" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🔑'}))"><i class="no">13</i></div>
+  <div class="info">
+    <p class="shop">aliexpress.com</p>
+    <h3>Věšák na klíče ve tvaru garáže</h3>
+    <ul class="tags"><li>1 ks</li></ul>
+    <p class="desc">3D tištěný věšák na zeď, který vypadá jako garáž s otevíracími vraty.</p>
+    
+    <div class="foot"><span class="price">cca 121 Kč</span><a class="btn" href="https://www.aliexpress.com/item/1005012273300386.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S1f33bb3378bb4f27bc2283822e7c4e93o.png" alt="Japonské hůlky – 5 párů" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🥢'}))"><i class="no">14</i></div>
+  <div class="info">
+    <p class="shop">aliexpress.com</p>
+    <h3>Japonské hůlky – 5 párů</h3>
+    <ul class="tags"><li>1 balení (5 párů)</li></ul>
+    <p class="desc">Protiskluzové hůlky na sushi a asijské jídlo.</p>
+    
+    <div class="foot"><span class="price">cca 159 Kč</span><a class="btn" href="https://www.aliexpress.com/item/1005006290709417.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://image.alza.cz/products/BUTbox03/BUTbox03.jpg?width=600&amp;height=600" alt="Houseland Dancer – kovový botník, 12 polic" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'👟'}))"><i class="no">15</i></div>
+  <div class="info">
+    <p class="shop">alza.cz</p>
+    <h3>Houseland Dancer – kovový botník, 12 polic</h3>
+    <ul class="tags"><li>1 ks</li><li>černá</li></ul>
+    <p class="desc">Vysoký kovový botník na hodně bot, každá police unese 10 kg.</p>
+    
+    <div class="foot"><span class="price">2 284 Kč</span><a class="btn" href="https://www.alza.cz/hobby/houseland-dancer-kovovy-12-polic-cerny-d12627210.htm" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://image.alza.cz/products/AENET063/AENET063.jpg?width=600&amp;height=600" alt="AENO FH2S – chytré topení s efektem plamene" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🔥'}))"><i class="no">16</i></div>
+  <div class="info">
+    <p class="shop">alza.cz</p>
+    <h3>AENO FH2S – chytré topení s efektem plamene</h3>
+    <ul class="tags"><li>1 ks</li><li>černá</li><li>2000 W</li></ul>
+    <p class="desc">Přenosný konvektor se zvlhčováním a efektem skutečného ohně. Ovládá se přes mobil.</p>
+    
+    <div class="foot"><span class="price">cena na webu</span><a class="btn" href="https://www.alza.cz/aeno-fh2s-chytre-topeni-konvekce-efekt-plamene-2000-w-cerne-d13133009.htm" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://res.cloudinary.com/chal-tec/image/upload/w_750,q_auto,f_auto,dpr_2.0/bbg/10046339/Gallery/10046339_yy_0001_titel___" alt="Blumfeldt BlazeTower 3000 W – infrazářič na terasu" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🌡️'}))"><i class="no">17</i></div>
+  <div class="info">
+    <p class="shop">electronic-star.cz</p>
+    <h3>Blumfeldt BlazeTower 3000 W – infrazářič na terasu</h3>
+    <ul class="tags"><li>1 ks</li><li>černá</li></ul>
+    <p class="desc">Venkovní infrazářič se třemi stupni, dálkovým ovladačem a časovačem (IP45).</p>
+    
+    <div class="foot"><span class="price">3 709 Kč</span><a class="btn" href="https://www.electronic-star.cz/blazetower-3000w-infraz-i-na-terasu-ern-p-10046339.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://image.alza.cz/products/COSHF8815/COSHF8815.jpg?width=600&amp;height=600" alt="Cosori Turbo Tower – horkovzdušná fritéza 10,8 l" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🍟'}))"><i class="no">18</i></div>
+  <div class="info">
+    <p class="shop">alza.cz</p>
+    <h3>Cosori Turbo Tower – horkovzdušná fritéza 10,8 l</h3>
+    <ul class="tags"><li>1 ks</li></ul>
+    <p class="desc">Velká horkovzdušná fritéza se dvěma patry a keramickým povrchem. Hodí se na vaření jídla na celý týden.</p>
+    
+    <div class="foot"><span class="price">4 890 Kč</span><a class="btn" href="https://www.alza.cz/cosori-turbo-tower-d13341192.htm" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article></div>
+</section>
+<section id="s4">
+  <h2><span>👕</span>Oblečení a vůně<small>5 přání</small></h2>
+  <div class="grid">
+<article class="card">
+  <div class="media"><img src="https://static.ftshp.digital/img/p/1/7/2/4/2/4/8/1724248-thickbox.jpg" alt="UGG M Otzo Clog – Black" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🥿'}))"><i class="no">19</i></div>
+  <div class="info">
+    <p class="shop">footshop.cz</p>
+    <h3>UGG M Otzo Clog – Black</h3>
+    <ul class="tags"><li>1 pár</li><li>velikost 41</li><li>černá</li></ul>
+    <p class="desc">Kožené pantofle s gumovou podrážkou. Teď jsou ve slevě. Prosím velikost 41.</p>
+    
+    <div class="foot"><span class="price">2 419 Kč (místo 4 399 Kč)</span><a class="btn" href="https://www.footshop.cz/cs/panske-tenisky-a-boty/476827-ugg-m-otzo-clog-black.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710946145002_alternate10?$rl_4x5_zoom$" alt="Ralph Lauren – vlněný rolák (Washable Wool)" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🧶'}))"><i class="no">20</i></div>
+  <div class="info">
+    <p class="shop">ralphlauren.eu</p>
+    <h3>Ralph Lauren – vlněný rolák (Washable Wool)</h3>
+    <ul class="tags"><li>1 ks</li><li>velikost XS</li><li>Polo Black</li></ul>
+    <p class="desc">Černý rolák ze 100% vlny, dá se prát v pračce.</p>
+    
+    <div class="foot"><span class="price">225 €</span><a class="btn" href="https://www.ralphlauren.eu/cz/en/washable-wool-rollneck-jumper-3616537774504.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1350429_alternate10?$rl_4x5_pdp$" alt="Ralph Lauren – The Iconic Mesh Polo, Classic Fit" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'👕'}))"><i class="no">21</i></div>
+  <div class="info">
+    <p class="shop">ralphlauren.eu</p>
+    <h3>Ralph Lauren – The Iconic Mesh Polo, Classic Fit</h3>
+    <ul class="tags"><li>2 ks</li><li>velikost XS</li><li>1× černá/červená</li><li>1× bílá/navy</li></ul>
+    <p class="desc">Klasické piké polo. Chci dvě barvy: jedno černé s červeným logem a jedno bílé s tmavě modrým logem. Velikosti teď na webu někdy chybí, tak to prosím hlídejte.</p>
+    
+    <div class="foot"><span class="price">140 € / ks</span><a class="btn" href="https://www.ralphlauren.eu/cz/en/the-iconic-classic-fit-mesh-polo-3615738826425.html" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://cdn.notinoimg.com/social/montblanc/2800016335558_01-o/explorer___240726.jpg" alt="Montblanc Explorer – parfémovaná voda" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🧭'}))"><i class="no">22</i></div>
+  <div class="info">
+    <p class="shop">notino.cz</p>
+    <h3>Montblanc Explorer – parfémovaná voda</h3>
+    <ul class="tags"><li>1 ks</li><li>EDP pro muže</li></ul>
+    <p class="desc">Dřevitá vůně s bergamotem a vetiverem. Na Notinu je víc velikostí balení.</p>
+    
+    <div class="foot"><span class="price">od 1 112 Kč</span><a class="btn" href="https://www.notino.cz/montblanc/explorer-parfemovana-voda-pro-muze/p-15950050/" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://cdn.notinoimg.com/social/parfums-de-marly/3700578504371_01-o/althair___230921.jpg" alt="Parfums de Marly Althaïr – parfémovaná voda" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'✨'}))"><i class="no">23</i></div>
+  <div class="info">
+    <p class="shop">notino.cz</p>
+    <h3>Parfums de Marly Althaïr – parfémovaná voda</h3>
+    <ul class="tags"><li>1 ks</li><li>EDP pro muže</li></ul>
+    <p class="desc">Teplá vanilková vůně. Na Notinu je víc velikostí balení.</p>
+    
+    <div class="foot"><span class="price">od 5 537 Kč</span><a class="btn" href="https://www.notino.cz/parfums-de-marly/althair-parfemovana-voda-pro-muze/p-16203671/" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article></div>
+</section>
+<section id="s5">
+  <h2><span>🏎️</span>Zážitky a sport<small>3 přání</small></h2>
+  <div class="grid">
+<article class="card">
+  <div class="media"><img src="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_2fj5n9z5cs9p6tebw22j9k87ad/adf00a91b74fc6d6188c7a47b146c52b_1795193266779.png" alt="Drift kurz – DRŽVOLANT" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🏎️'}))"><i class="no">24</i></div>
+  <div class="info">
+    <p class="shop">drzvolant.cz</p>
+    <h3>Drift kurz – DRŽVOLANT</h3>
+    <ul class="tags"><li>1 kurz / voucher</li></ul>
+    <p class="desc">Kurz driftování s instruktorem. S autem BMW: 1 hodina 9 999 Kč, 2 hodiny 17 999 Kč. Prémiový Camaro SS: 1 hodina 16 999 Kč. Ceny jsou bez DPH. Cena zahrnuje auto, pneumatiky, palivo i dráhu.</p>
+    
+    <div class="foot"><span class="price">od 9 999 Kč bez DPH</span><a class="btn" href="https://drzvolant.cz/kurzy/drift" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><img src="https://nalamoves.shop/cdn/shop/files/Bundle_Black-Birch_9b04eef8-e756-4ef4-b8eb-248abf372ec1.png?v=1793519868" alt="Nalamoves – Home Gym Bundle" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emo',textContent:'🤸'}))"><i class="no">25</i></div>
+  <div class="info">
+    <p class="shop">nalamoves.shop</p>
+    <h3>Nalamoves – Home Gym Bundle</h3>
+    <ul class="tags"><li>1 sada</li><li>Black-Birch</li></ul>
+    <p class="desc">Sada na cvičení doma: žebřiny, nástavec na shyby a dipy, žíněnka a gymnastické kruhy s popruhy.</p>
+    
+    <div class="foot"><span class="price">729 € (místo 936 €)</span><a class="btn" href="https://nalamoves.shop/products/bundle?variant=64703297159517" target="_blank" rel="noopener">Otevřít v obchodě <b>→</b></a></div>
+  </div>
+</article>
+<article class="card">
+  <div class="media"><span class="emo">🎁</span><i class="no">26</i></div>
+  <div class="info">
+    <p class="shop">prodejna Ansons – Chodov</p>
+    <h3>Dárková karta Ansons</h3>
+    <ul class="tags"><li>dárková karta</li></ul>
+    <p class="desc">Dá se koupit osobně na prodejně Ansons na Chodově.</p>
+    
+    <div class="foot"><span class="price">libovolná částka</span><span class="btn ghost">Koupit osobně</span></div>
+  </div>
+</article></div>
+</section></main>
+<footer>🎅 Celkem 26 přání · ceny jsou orientační ke 23. 11. 2026 a v obchodech se můžou změnit</footer>
+</body>
+</html>
